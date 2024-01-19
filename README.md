@@ -1,7 +1,4 @@
  <h1 align="center">
-   <br>
-   <img src="https://gitee.com/cynthia520/elastic-view/raw/main/static/show_img/2.png"/>
-   <br>
    ElasticView
    <br>
 </h1>
