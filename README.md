@@ -106,7 +106,8 @@ docker run --restart=unless-stopped -d -p 8090:8090 -v /data/elastic_view/data:/
 ```
 
 - 浏览器访问对应ip:8090，初始用户名：admin，初始密码：admin
-
+- 修改默认密码admin，需要修改源码中的sql，路径pkg/infrastructure/sqlstore
+/es_view.sql，其中的密码是用md5加密后的字符串，替换为你想修改的密码字符串即可。
 ## 🛠️手动构建
 
 ```shell
@@ -127,15 +128,3 @@ go build -o ev cmd/ev
 
 * 铸龙用户行为分析系统     https://github.com/1340691923/xwl_bi
 * 软考成绩快查工具        https://github.com/1340691923/SoftTestMonitor
-
-### 求职中，个人微信二维码
-
-<!-- ![image](https://gitee.com/cynthia520/elastic-view/raw/main/static/show_img/weixin.jpg)   -->
-<img src="https://raw.githubusercontent.com/1340691923/ElasticView/main/resources/show_img/weixin.jpg" style="width: 220px"> 
-### 求职中，团队成员微信二维码
-
-<img src="http://cdn.ycvod.net/img/wx2.jpg" style="width: 220px"> 
-
-### QQ群
-
-<img src="https://raw.githubusercontent.com/1340691923/ElasticView/main/resources/show_img/qq_group.jpg" style="width: 220px">
