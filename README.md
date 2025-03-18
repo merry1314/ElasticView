@@ -1,5 +1,4 @@
 ﻿<h1 align="center">
-   作者求工作，tel：13298692154
 </h1>
  <h1 align="center">
    <br>
@@ -130,15 +129,3 @@ CGO_ENABLED=0 GOOS=linux go build -ldflags '-w -s' -o ev cmd/ev/main.go
 
 * 铸龙用户行为分析系统     https://github.com/1340691923/xwl_bi
 * 软考成绩快查工具        https://github.com/1340691923/SoftTestMonitor
-
-### 求职中，个人微信二维码
-
-<!-- ![image](https://gitee.com/cynthia520/elastic-view/raw/main/static/show_img/weixin.jpg)   -->
-<img src="https://raw.githubusercontent.com/1340691923/ElasticView/main/resources/show_img/weixin.jpg" style="width: 220px"> 
-### 求职中，团队成员微信二维码
-
-<img src="http://cdn.ycvod.net/img/wx2.jpg" style="width: 220px"> 
-
-### QQ群
-
-<img src="https://raw.githubusercontent.com/1340691923/ElasticView/main/resources/show_img/qq_group.jpg" style="width: 220px">
